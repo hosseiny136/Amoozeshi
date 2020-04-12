@@ -6,28 +6,29 @@
   display: flex;
 }
 
-
 .consert_card {
   text-align: right;
   width: 20%;
-  max-width:213px;
+  max-width: 213px;
 }
 
 .consert_card_unhover {
   position: relative;
   z-index: 1;
-  
 }
-.consert_card_unhover img{
+
+.consert_card_unhover img {
   max-width: 213px;
   max-height: 299px;
 
 }
-.consert_card_hover-viewticket a{
+
+.consert_card_hover-viewticket a {
   font-size: 16px;
   color: green;
   text-decoration: none;
 }
+
 .consert_card_hover {
   max-width: 213px;
   max-height: 299px;
@@ -46,28 +47,33 @@
   font-size: 12px;
   color: #787878;
 }
+
 .consert_card-title {
   font-size: 15px;
   margin-top: 5px;
 }
+
 .consert_card_hover-content {
   position: absolute;
   bottom: 0;
 }
+
 .consert_card_hover-content ul li {
   list-style-type: none;
 }
+
 .consert_card_footer {
   position: relative;
   z-index: 1;
   bottom: 0;
 }
+
 .consert_card-image:hover .consert_card_hover {
   display: block;
 
 }
-.text-cont{
+.text-cont {
   overflow: hidden;
-text-overflow: ellipsis;
-white-space: nowrap;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
