@@ -2,6 +2,10 @@ import React from 'react';
 import './App.css';
 import cardProfile from './images/card-profile.png'
 import ProfileCard from './components/ProfileCard'
+import Login from './components/login'
+import ConsertCard from './components/ConsertCard'
+import bootstrap from 'reactstrap'
+import  Sinemacard from './components/sinema'
 const App =props => {
     const profileCardData={   src: cardProfile,
       title:"آموزش جاوااسکریپت از مقدماتی تا...",
@@ -9,8 +13,12 @@ const App =props => {
       rate:"3.8",
       time:"00:45:20"}
   return (
-<div class="container">
-<ProfileCard data={profileCardData}/>
+<div className="container">
+{/* <ProfileCard data={profileCardData}/> */}
+{/* <Login/> */}
+{/* <ConsertCard/> */}
+<Sinemacard/>
+
 </div>
   );
 }
