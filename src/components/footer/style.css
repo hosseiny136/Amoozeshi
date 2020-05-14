@@ -1,0 +1,30 @@
+footer{text-align: right;line-height: 1.5em;}
+.footer-top{border-bottom: 1px solid #dcdcdc;}
+.titr{ font-size: 14px;
+color:#e1373c
+}
+.footer_bottom-copyright{margin-top:10px;
+margin-bottom:10px;}
+.footer_bottom-brand{
+  padding:10px;
+}
+ ul li {text-align: right;
+   list-style-type: none;
+  color:#3c3c3c;
+  font-size: 13px;
+}
+.footer_namad img{
+  width:auto;
+  height:107px;
+}
+.footer_bottom-copyright{font-size:12px;}
+.footer_bottom-about{
+  font-size: 14px;
+}
+.footer_bottom-another{
+  background: #F5F5F5;
+  text-align: justify;
+}
+.footer_bottom-brand img{    height: 34px;
+  width: auto;
+  margin-left: 30px;}

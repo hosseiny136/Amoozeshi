@@ -1,0 +1,66 @@
+.header_top {
+  height: 80px;
+    background-color: #fff;
+    font-size: 14px;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+/*logo*/
+.header_logo {
+  margin-right: 36px;
+  margin-top: 10px;
+}
+.header_logo-img{    width: 100%;
+  max-width: 147px;}
+.header_logo span {
+  color: #1ed764;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+/* search */
+.header_search {
+  width: 60%;
+  height: 44px;
+
+  margin-top: 7px;
+  text-align: center;
+}
+
+.header_searchbtn {
+  width: 60px;
+  height: 32px;
+  border-radius: 20px;
+  background-color:#dc373c;
+  position: absolute;
+  left: 63px;
+  top: 6px;
+}
+
+.header_searchbtn .btn {
+  background-color: #1ed76400;
+  border-style: none;
+  font-size: 20px;
+  color: white;
+  padding-top: 2px;
+}
+
+.header_search-input {
+  width: 572px;
+  height: 44px;
+  border-radius: 25px;
+  border: solid 1px #dcdcdc;
+  text-align: right;
+  padding-right: 12px;
+}
+
+.header_login {
+  margin-top: 10px;
+  margin-right: 28px;
+}
+

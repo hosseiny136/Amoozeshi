@@ -1,0 +1,25 @@
+.flex{
+  display: flex;
+}
+.location_card{
+  border:1px solid #878787;
+  text-align: right;
+  border-radius: 5px;
+  margin-top:10px;
+  width:226px;
+  overflow: hidden;
+  margin-left: 10px;
+}
+.location_card-image { height: 175px;}
+.location_card-image img{ height: auto; width:100%}
+
+.location_card_footer{
+  margin:10px ;
+}
+.title{
+  font-size:15px;
+}
+.sub_title{
+  font-size: 12px;
+  color: #787878;
+}

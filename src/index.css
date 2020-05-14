@@ -1,10 +1,19 @@
 @font-face {
   font-family: IRANSansFaNum;
   src: url(http://tik8.com/static/media/IRANSansWeb.a5080d9e.ttf);
+ 
 }
 
 body {
   font-family: IRANSansFaNum !important;
   text-align: right;
   direction: rtl;
+  background-color: #F5F5F5 !important;
+}
+.flex{
+  display:flex;
+  
+}
+.rel {
+  position: relative;
 }

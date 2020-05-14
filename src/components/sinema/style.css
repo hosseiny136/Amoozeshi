@@ -10,6 +10,7 @@
   text-align: right;
   width: 20%;
   max-width: 213px;
+  margin-left: 11px;
 }
 
 .consert_card_unhover {
@@ -72,6 +73,7 @@
   display: block;
 
 }
+
 .text-cont {
   overflow: hidden;
   text-overflow: ellipsis;

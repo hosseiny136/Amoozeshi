@@ -1,0 +1,36 @@
+.header_bottom {
+
+  height: 60px;
+  background-color: #ffffff;
+  text-align: right;
+  font-size: 14px;
+  border-top: 1px solid #dcdcdc;
+padding: 9px;
+
+}
+
+.nav-link {
+  color: #000;
+}
+
+.fa-home {
+  font-size: 20px !important;
+  color: #787878;
+}
+.fa-user{
+  font-size: 27px  !important;
+  color: #787878;
+}
+.active{ color:red }
+.rahgiri{
+  background-color: #000;
+  border-radius: 30px;
+  padding-left: 27px;
+  padding-right: 22px;
+height: 40px;
+}
+.rahgiri button{  color:#fff !important;
+       background-color: transparent !important; 
+     border-color:transparent !important;
+}
+
