@@ -1,46 +1,28 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './style.css';
-class Login extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      username: "",
-      password:""
-    }
-    this.handleChange = this.handleChange.bind(this); 
-  
+import { Button, Form, FormGroup, Label, Input} from 'reactstrap';
+const Loginuser = props => {
+  // const { src, title, desc, rate, time } = props.data
+  return (
+   
+     <div className="login-form">
+      <Form>
+      <FormGroup>
+        <Label for="username">شماره تلفن همراه</Label>
+        <Input  type="tel" name="number" className="username"  placeholder="09*********" />
+      </FormGroup>
+      <FormGroup>
+        <Label for="loginpassword">رمزعبور</Label>
+        <Input type="epassword" name="password" className="loginPassword" placeholder="*********" />
+      </FormGroup>
 
-  }
-  handleChange(event){
-    const name=event.target.name
-    this.setState({
-      [name]:event.target.value
-    })
-  }
-  onSubmit = (e) => {
-    e.preventDefault()
-    console.log({
-      username:this.state.username,
-      pasword:this.state.password
-    })
-  }
-  render() {
-    return (
-      <form onSubmit={this.onSubmit}>
-        <div>
-          <lable for="username">UserName:</lable>
-          <input type="text" name="username" onChange={this.handleChange} />
-        </div>
-        <div>
-          <lable for="password">PassWord:</lable>
-          <input type="password" name="password" onChange={this.handleChange} />
-        </div>
-        <input type="submit" value="Submit" />
-
-
-      </form>
-    );
-  }
+      <Button color="success">ورود</Button>
+  </Form>
+  <div className="form-bottom flex-col">
+    <span>حساب کاربری ندارید؟ <a href="#" className="orange" >ثبت نام کنید</a></span>
+    <span>رمز خود را فراموش کرده اید؟</span>
+  </div>
+</div>
+  );
 }
-
-export default Login;
+export default Loginuser;

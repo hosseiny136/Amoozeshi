@@ -19,7 +19,8 @@ import ProfileUser from './components/ProfileUser'
 import Profilethem from './components/ProfileTemplate'
 import Profilepass from './components/passprofile'
 import ProfileService from './components/ProfileService'
-
+import Loginuser from './components/login'
+import Loginthem from './components/login template'
 const App = props => {
   // const profileCardData = {
   //   src: cardProfile,
@@ -39,10 +40,12 @@ const App = props => {
       {/* <Profilethem title="تغییر رمز عبور">
         < Profilepass/>
       </Profilethem> */}
-     <Profilethem title="سرویس های من" txt="سرویس جدید" notif="1">
+     {/* <Profilethem title="سرویس های من" txt="سرویس جدید" notif="1">
         < ProfileService/>
-      </Profilethem>
-     
+      </Profilethem> */}
+     <Loginthem title="ورود">
+        < Loginuser/>
+      </Loginthem> 
       
      {
      

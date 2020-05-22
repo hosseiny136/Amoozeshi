@@ -8,7 +8,7 @@ import service from '../../images/service.png'
 import setting from '../../images/setting.png'
 import pay from '../../images/pay.png'
 import shraj from '../../images/sharj.png'
-import support from '../../images/support.png'
+import support from '../../images/suport.png'
 import pass from '../../images/pass.png'
 import exit from '../../images/exit.png'
 const SidebarMenu = props => {
